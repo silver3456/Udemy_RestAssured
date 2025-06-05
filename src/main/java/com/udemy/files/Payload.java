@@ -68,4 +68,14 @@ public class Payload {
                 "\n" +
                 "}";
     }
+
+    public static String addBook(String isbn, String aisle) {
+        String payLoad = "{\n" +
+                "\"name\":\"Learn Appium Automation with Java\",\n" +
+                "\"isbn\":\"" + isbn + "\",\n" +
+                "\"aisle\":\"" + aisle + "\",\n" +
+                "\"author\":\"John foe\"\n" +
+                "}\n";
+        return payLoad;
+    }
 }
