@@ -17,6 +17,7 @@ public class Basics {
     public static void main(String[] args) throws IOException {
         RestAssured.baseURI = "https://rahulshettyacademy.com";
 
+
         //given - all input details
         //chain methods in the same order as in Postman
 
