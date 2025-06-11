@@ -1,6 +1,6 @@
-package com.udemy.pojo;
+package com.udemy.pojo_deserialization;
 
-public class Api {
+public class Mobile {
     private String courseTitle;
     private String price;
 

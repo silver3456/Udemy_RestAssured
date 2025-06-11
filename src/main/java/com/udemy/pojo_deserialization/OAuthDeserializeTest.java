@@ -1,7 +1,5 @@
-package com.udemy.oauth;
+package com.udemy.pojo_deserialization;
 
-import com.udemy.pojo.Api;
-import com.udemy.pojo.GetCourse;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 
@@ -9,7 +7,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
-public class OAuthTest {
+public class OAuthDeserializeTest {
 
     public static void main(String[] args) {
         RestAssured.baseURI = "https://rahulshettyacademy.com";

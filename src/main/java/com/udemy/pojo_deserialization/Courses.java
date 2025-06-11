@@ -1,4 +1,4 @@
-package com.udemy.pojo;
+package com.udemy.pojo_deserialization;
 
 import java.util.List;
 
