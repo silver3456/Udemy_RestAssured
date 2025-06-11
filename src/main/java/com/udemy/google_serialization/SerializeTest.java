@@ -12,8 +12,6 @@ public class SerializeTest {
 
         RestAssured.baseURI = "https://rahulshettyacademy.com";
 
-
-
         AddPlace place = new AddPlace();
         place.setAccuracy(50);
         place.setAddress("32, side layout, cohen 09");
